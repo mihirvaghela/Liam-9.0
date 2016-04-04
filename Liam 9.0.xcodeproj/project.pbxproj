@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B584F9141CB325A000B7533E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B584F9131CB325A000B7533E /* AppDelegate.swift */; };
+		B584F9161CB325A000B7533E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B584F9151CB325A000B7533E /* GameScene.sks */; };
+		B584F9181CB325A000B7533E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B584F9171CB325A000B7533E /* GameScene.swift */; };
+		B584F91A1CB325A000B7533E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B584F9191CB325A000B7533E /* GameViewController.swift */; };
+		B584F91D1CB325A100B7533E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B584F91B1CB325A100B7533E /* Main.storyboard */; };
+		B584F91F1CB325A100B7533E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B584F91E1CB325A100B7533E /* Assets.xcassets */; };
+		B584F9221CB325A100B7533E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B584F9201CB325A100B7533E /* LaunchScreen.storyboard */; };
+		B584F92D1CB325A200B7533E /* Liam_9_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B584F92C1CB325A200B7533E /* Liam_9_0Tests.swift */; };
+		B584F9381CB325A200B7533E /* Liam_9_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B584F9371CB325A200B7533E /* Liam_9_0UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B584F9291CB325A200B7533E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B584F9081CB3259C00B7533E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B584F90F1CB3259F00B7533E;
+			remoteInfo = "Liam 9.0";
+		};
+		B584F9341CB325A200B7533E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B584F9081CB3259C00B7533E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B584F90F1CB3259F00B7533E;
+			remoteInfo = "Liam 9.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B584F9101CB3259F00B7533E /* Liam 9.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Liam 9.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B584F9131CB325A000B7533E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B584F9151CB325A000B7533E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B584F9171CB325A000B7533E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B584F9191CB325A000B7533E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B584F91C1CB325A100B7533E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B584F91E1CB325A100B7533E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B584F9211CB325A100B7533E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B584F9231CB325A100B7533E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B584F9281CB325A200B7533E /* Liam 9.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Liam 9.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B584F92C1CB325A200B7533E /* Liam_9_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liam_9_0Tests.swift; sourceTree = "<group>"; };
+		B584F92E1CB325A200B7533E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B584F9331CB325A200B7533E /* Liam 9.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Liam 9.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B584F9371CB325A200B7533E /* Liam_9_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liam_9_0UITests.swift; sourceTree = "<group>"; };
+		B584F9391CB325A200B7533E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B584F90D1CB3259F00B7533E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B584F9251CB325A200B7533E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B584F9301CB325A200B7533E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B584F9071CB3259C00B7533E = {
+			isa = PBXGroup;
+			children = (
+				B584F9121CB325A000B7533E /* Liam 9.0 */,
+				B584F92B1CB325A200B7533E /* Liam 9.0Tests */,
+				B584F9361CB325A200B7533E /* Liam 9.0UITests */,
+				B584F9111CB3259F00B7533E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B584F9111CB3259F00B7533E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B584F9101CB3259F00B7533E /* Liam 9.0.app */,
+				B584F9281CB325A200B7533E /* Liam 9.0Tests.xctest */,
+				B584F9331CB325A200B7533E /* Liam 9.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B584F9121CB325A000B7533E /* Liam 9.0 */ = {
+			isa = PBXGroup;
+			children = (
+				B584F9131CB325A000B7533E /* AppDelegate.swift */,
+				B584F9151CB325A000B7533E /* GameScene.sks */,
+				B584F9171CB325A000B7533E /* GameScene.swift */,
+				B584F9191CB325A000B7533E /* GameViewController.swift */,
+				B584F91B1CB325A100B7533E /* Main.storyboard */,
+				B584F91E1CB325A100B7533E /* Assets.xcassets */,
+				B584F9201CB325A100B7533E /* LaunchScreen.storyboard */,
+				B584F9231CB325A100B7533E /* Info.plist */,
+			);
+			path = "Liam 9.0";
+			sourceTree = "<group>";
+		};
+		B584F92B1CB325A200B7533E /* Liam 9.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B584F92C1CB325A200B7533E /* Liam_9_0Tests.swift */,
+				B584F92E1CB325A200B7533E /* Info.plist */,
+			);
+			path = "Liam 9.0Tests";
+			sourceTree = "<group>";
+		};
+		B584F9361CB325A200B7533E /* Liam 9.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B584F9371CB325A200B7533E /* Liam_9_0UITests.swift */,
+				B584F9391CB325A200B7533E /* Info.plist */,
+			);
+			path = "Liam 9.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B584F90F1CB3259F00B7533E /* Liam 9.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B584F93C1CB325A200B7533E /* Build configuration list for PBXNativeTarget "Liam 9.0" */;
+			buildPhases = (
+				B584F90C1CB3259F00B7533E /* Sources */,
+				B584F90D1CB3259F00B7533E /* Frameworks */,
+				B584F90E1CB3259F00B7533E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Liam 9.0";
+			productName = "Liam 9.0";
+			productReference = B584F9101CB3259F00B7533E /* Liam 9.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B584F9271CB325A200B7533E /* Liam 9.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B584F93F1CB325A200B7533E /* Build configuration list for PBXNativeTarget "Liam 9.0Tests" */;
+			buildPhases = (
+				B584F9241CB325A200B7533E /* Sources */,
+				B584F9251CB325A200B7533E /* Frameworks */,
+				B584F9261CB325A200B7533E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B584F92A1CB325A200B7533E /* PBXTargetDependency */,
+			);
+			name = "Liam 9.0Tests";
+			productName = "Liam 9.0Tests";
+			productReference = B584F9281CB325A200B7533E /* Liam 9.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B584F9321CB325A200B7533E /* Liam 9.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B584F9421CB325A200B7533E /* Build configuration list for PBXNativeTarget "Liam 9.0UITests" */;
+			buildPhases = (
+				B584F92F1CB325A200B7533E /* Sources */,
+				B584F9301CB325A200B7533E /* Frameworks */,
+				B584F9311CB325A200B7533E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B584F9351CB325A200B7533E /* PBXTargetDependency */,
+			);
+			name = "Liam 9.0UITests";
+			productName = "Liam 9.0UITests";
+			productReference = B584F9331CB325A200B7533E /* Liam 9.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B584F9081CB3259C00B7533E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mihir Vaghela";
+				TargetAttributes = {
+					B584F90F1CB3259F00B7533E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B584F9271CB325A200B7533E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B584F90F1CB3259F00B7533E;
+					};
+					B584F9321CB325A200B7533E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B584F90F1CB3259F00B7533E;
+					};
+				};
+			};
+			buildConfigurationList = B584F90B1CB3259D00B7533E /* Build configuration list for PBXProject "Liam 9.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B584F9071CB3259C00B7533E;
+			productRefGroup = B584F9111CB3259F00B7533E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B584F90F1CB3259F00B7533E /* Liam 9.0 */,
+				B584F9271CB325A200B7533E /* Liam 9.0Tests */,
+				B584F9321CB325A200B7533E /* Liam 9.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B584F90E1CB3259F00B7533E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B584F9161CB325A000B7533E /* GameScene.sks in Resources */,
+				B584F9221CB325A100B7533E /* LaunchScreen.storyboard in Resources */,
+				B584F91F1CB325A100B7533E /* Assets.xcassets in Resources */,
+				B584F91D1CB325A100B7533E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B584F9261CB325A200B7533E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B584F9311CB325A200B7533E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B584F90C1CB3259F00B7533E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B584F9181CB325A000B7533E /* GameScene.swift in Sources */,
+				B584F91A1CB325A000B7533E /* GameViewController.swift in Sources */,
+				B584F9141CB325A000B7533E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B584F9241CB325A200B7533E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B584F92D1CB325A200B7533E /* Liam_9_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B584F92F1CB325A200B7533E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B584F9381CB325A200B7533E /* Liam_9_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B584F92A1CB325A200B7533E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B584F90F1CB3259F00B7533E /* Liam 9.0 */;
+			targetProxy = B584F9291CB325A200B7533E /* PBXContainerItemProxy */;
+		};
+		B584F9351CB325A200B7533E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B584F90F1CB3259F00B7533E /* Liam 9.0 */;
+			targetProxy = B584F9341CB325A200B7533E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B584F91B1CB325A100B7533E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B584F91C1CB325A100B7533E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B584F9201CB325A100B7533E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B584F9211CB325A100B7533E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B584F93A1CB325A200B7533E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B584F93B1CB325A200B7533E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B584F93D1CB325A200B7533E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Liam 9.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Liam-9-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B584F93E1CB325A200B7533E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Liam 9.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Liam-9-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B584F9401CB325A200B7533E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Liam 9.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Liam-9-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Liam 9.0.app/Liam 9.0";
+			};
+			name = Debug;
+		};
+		B584F9411CB325A200B7533E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Liam 9.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Liam-9-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Liam 9.0.app/Liam 9.0";
+			};
+			name = Release;
+		};
+		B584F9431CB325A200B7533E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Liam 9.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Liam-9-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Liam 9.0";
+			};
+			name = Debug;
+		};
+		B584F9441CB325A200B7533E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Liam 9.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Liam-9-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Liam 9.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B584F90B1CB3259D00B7533E /* Build configuration list for PBXProject "Liam 9.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B584F93A1CB325A200B7533E /* Debug */,
+				B584F93B1CB325A200B7533E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B584F93C1CB325A200B7533E /* Build configuration list for PBXNativeTarget "Liam 9.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B584F93D1CB325A200B7533E /* Debug */,
+				B584F93E1CB325A200B7533E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B584F93F1CB325A200B7533E /* Build configuration list for PBXNativeTarget "Liam 9.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B584F9401CB325A200B7533E /* Debug */,
+				B584F9411CB325A200B7533E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B584F9421CB325A200B7533E /* Build configuration list for PBXNativeTarget "Liam 9.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B584F9431CB325A200B7533E /* Debug */,
+				B584F9441CB325A200B7533E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B584F9081CB3259C00B7533E /* Project object */;
+}
